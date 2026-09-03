@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #0A0E14;
+  color: #E6EDF3;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.glow-card {
+  background: linear-gradient(145deg, rgba(0, 229, 160, 0.08), rgba(124, 92, 255, 0.05));
+  border: 1px solid #1E2937;
+}
+
+.grad-text {
+  background: linear-gradient(90deg, #00E5A0, #7C5CFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.live-dot { animation: pulse-dot 1.4s infinite; }

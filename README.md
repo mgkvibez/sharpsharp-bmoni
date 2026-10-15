@@ -24,7 +24,9 @@ Next.js 14 (App Router) + TypeScript + Tailwind
 ├── app/api/*         — server routes that drive the full lifecycle
 ├── app/dashboard    — live wallet, balances, VBA details, onboarding states
 ├── app/onboarding   — 6-stage lifecycle wizard with live sandbox status
-└── app/concierge    — conversational money movement ("send 5k naira to my student")
+├── app/concierge    — conversational money movement ("send 5k naira to my student")
+└── middleware.ts    — security headers on every response (X-Frame-Options,
+      X-Content-Type-Options, Referrer-Policy)
 ```
 
 ### The transfer pipeline (proven end-to-end against the sandbox)

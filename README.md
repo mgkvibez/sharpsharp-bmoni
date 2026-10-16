@@ -66,7 +66,8 @@ npm run dev
 - ✅ Transfer pipeline proven end-to-end (executes; awaits sandbox test-token credit for funds)
 - ✅ Withdrawal verify → register → offramp flow working
 - ⏳ Sandbox test tokens: request at bkey.mintlify.app/request-test-tokens
-  (phone numbers in demo-state.json)
+  (phone numbers in `demo-state.json`, which `npm run seed` generates locally
+  — the file is gitignored, so it exists only after seeding)
 
 ## Demo script (2 minutes)
 
